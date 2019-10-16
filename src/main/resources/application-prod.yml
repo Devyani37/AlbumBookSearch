@@ -1,0 +1,5 @@
+api:
+  google:
+    maxResults: 4
+  itunes:
+    maxResults: 6

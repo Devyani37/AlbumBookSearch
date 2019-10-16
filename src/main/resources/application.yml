@@ -1,0 +1,19 @@
+management:
+    endpoint:
+        health:
+            show-details: ALWAYS
+    endpoints:
+        web:
+            exposure:
+                include: '*'
+api:
+    connectTimeout: 30000
+    readTimeout: 60000
+    google:
+        url: https://www.googleapis.com/books/v1/volumes
+        maxResults: 5
+    itunes:
+        url: https://itunes.apple.com/search
+        maxResults: 5
+service:
+    timeout: 60000
